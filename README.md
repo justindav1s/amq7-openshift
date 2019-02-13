@@ -8,9 +8,10 @@ However I have two issues :
       * https://broker-amq-0.broker-amq-headless.amq7.svc to broker 0
       * https://broker-amq-1.broker-amq-headless.amq7.svc to broker 1
       * https://broker-amq-2.broker-amq-headless.amq7.svc to broker 2
-However OCP is not respecting the subdomain change, and always sending me back to the same pod.
 
-I have set ROUTER_ALLOW_WILDCARD_ROUTES=true.
+      However OCP is not respecting the subdomain change, and always sending me back to the same pod.
+
+      I have set ROUTER_ALLOW_WILDCARD_ROUTES=true.
 
 Does anyone have any experience of this ?
 
